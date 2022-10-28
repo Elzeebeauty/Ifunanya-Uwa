@@ -1,4 +1,12 @@
 body {
-    background-image: url("images/News-bg.jpg");
+    background:rgb(201, 137, 65);
     text-align: center;
+}
+
+.text-center {
+    text-align: left;
+}
+.contact {
+    color: black;
+    text-decoration: none;
 }

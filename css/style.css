@@ -22,13 +22,29 @@ body {
 }
 .about-link {
     text-decoration: none;
-    color: aquamarine;
+    color: black;
+    padding: 20px 15px;
+    border: solid 1px rgb(243, 222, 34);
+    border-radius: 100px;
+    margin: 20px;
+    background-color: #ffff;
+
 }
 h1 {
-    font-size: 40px;
+    font-size: 31px;
 }
 
 .email-link {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 657px) and (min-width: 1120px) {
+    h1
+    h2
+    h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
 }
