@@ -10,3 +10,27 @@ body {
     color: black;
     text-decoration: none;
 }
+
+.fa-whatsapp {
+    color: rgb(73, 202, 73);
+}
+
+.fa-facebook {
+    color: rgb(77, 77, 153);
+}
+
+.fa-gmail {
+    color: rgb(221, 65, 65);
+}
+
+@media (max-width: 576px ) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 30px;
+    }
+}
