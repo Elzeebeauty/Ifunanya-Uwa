@@ -33,6 +33,7 @@ p {
 .my {
     font-size: 45px;
     text-transform: capitalize;
+    line-height: 40px;
 }
 
 
