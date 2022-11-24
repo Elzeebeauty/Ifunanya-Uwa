@@ -3,50 +3,54 @@
     background-position: top;
     background-size:auto;
     background-repeat: no-repeat; */
-    text-align: center;
     position: relative;
     width: 100%;
+    height: auto;
     background: url('../css/img/3.jpg')
 }
 
-.header {
-    max-width: 1120px;
-    width: 600px;
-    position: fixed;
-}
-.navigation_links {
-    display: flex;
-    justify-content: center;
-    margin-top: 37px;
-    
+.navigation-links a {
+    text-decoration: none;
 }
 
-.navigation_links a{
-    text-transform: capitalize;
-}
 .contact-link {
-    text-decoration: none;
-    margin: 20px;
+    margin: 10px auto;
+    display: block;
     border-radius: 100px;
-    padding: 20px 15px;
+    padding: 10px 15px;
     color: black;
     border: 1px solid blue;
+    text-transform: capitalize;
     background-color: rgb(192, 151, 151);
 }
 .about-link {
-    text-decoration: none;
     color: black;
-    padding: 20px 15px;
+    padding: 10px 15px;
     border: solid 1px rgb(243, 222, 34);
     border-radius: 100px;
-    margin: 20px;
+    margin: 0 auto;
+    display: block;
+    text-transform: capitalize;
     background-color: #ffff;
 
 }
 
-h1 {
-    font-size: 31px;
+.ify {
+    position: static;
+    top: 0;
+    left: 0;
 }
+
+.center {
+    font-size: 40px;
+}
+
+.name {
+    position: relative;
+    right: 18px;
+    font-size: 35px;
+    line-height: 38px;
+} 
 
 .email-link {
     display: flex;
@@ -54,12 +58,25 @@ h1 {
 }
 
 @media (max-width: 576px) and (min-width: 1120px) {
-    h1
+    h1 {
+        font-size: 37px;
+    }
     h2
     h3 {
-        font-size: 22px;
+        font-size: 30px;
     }
 
+.center {
+    font-size: 40px;
+}
+
+.name {
+    font-size: 65px;
+}
+}
+
+.work {
+    font-size: 36px;
 }
 
 .fa-brands {
